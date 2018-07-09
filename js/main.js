@@ -1,4 +1,3 @@
-console.log($());
 // Loli moves around grid and stops at limits
 let leftOrRight = 0;
 let upOrDown = 0;
@@ -39,18 +38,3 @@ document.addEventListener('keydown', (event) => {
             console.log('top',$('#loli').css('top'))
         }
 });
-
-// // Berries appear randomly on grid
-// function getRandomIntInclusive(min, max) {
-//     min = Math.ceil(min); // Math.ceil function returns the smallest integer greater than or equal to a given number
-//     max = Math.floor(max); // Math.floor function returns the largest integer less than or equal to a given number
-//     return Math.floor(Math.random() * (max - min + 1)) + min; // The maximum is inclusive and the minimum is inclusive 
-// }
-// const randomGridCoords1 = getRandomIntInclusive(10, 500)
-// const randomGridCoords2 = getRandomIntInclusive(10, 500)
-
-// console.log(randomGridCoords1,randomGridCoords2);
-
-let berry1 = $('#blackberry');
-berry1.style.position = "absolute";
-berry1.css('left', 300);
