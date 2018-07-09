@@ -1,7 +1,9 @@
 body{
     background-color: rgb(202, 166, 215);
 }
-
+h1{
+    color: aliceblue;
+}
 .loli-grid{
     margin-top: 10%;
     height: 500px;
@@ -34,7 +36,7 @@ main character would not be able to move */
     width: 20px;
     background-color: black;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #blueberry{
@@ -42,7 +44,7 @@ main character would not be able to move */
     width: 20px;
     background-color: navy;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #cloudberry{
@@ -50,7 +52,7 @@ main character would not be able to move */
     width: 20px;
     background-color: orange;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #cranberry{
@@ -58,7 +60,7 @@ main character would not be able to move */
     width: 20px;
     background-color: darkred;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #raspberry{
@@ -66,7 +68,7 @@ main character would not be able to move */
     width: 20px;
     background-color: red;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #strawberry{
@@ -74,5 +76,5 @@ main character would not be able to move */
     width: 20px;
     background-color: palevioletred;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
 }
