@@ -1,18 +1,78 @@
-
-
 body{
     background-color: rgb(202, 166, 215);
 }
 
 .loli-grid{
     margin-top: 10%;
-    height: 450px;
+    height: 500px;
     width: 500px;
-    background-color: rgba(121, 192, 111, .7);
-    border: 1px solid gold;
+/* background-image courtesy of Giphy */
+    background: url("../images/grass.gif");
+    background-size: 100%;
+    background-position: center;
+    border: 1px dashed gold;
+/* observation: without position relative here and position absolute in #loli, 
+main character would not be able to move */
     position: relative;
-    display: flex;
 }
-.row{
-    flex: 1;
+
+#loli{
+    margin: 0 auto;
+    position: absolute;
+    border: 2px solid black;
+    background: radial-gradient(circle, white 10%, transparent 30%), pink;
+    /* eyes */
+    background-size: 50% 100%;
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    border-bottom: 7px solid lightcoral;
+}
+
+#blackberry{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#blueberry{
+    height: 20px;
+    width: 20px;
+    background-color: navy;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#cloudberry{
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#cranberry{
+    height: 20px;
+    width: 20px;
+    background-color: darkred;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#raspberry{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#strawberry{
+    height: 20px;
+    width: 20px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    position: absolute;
 }
