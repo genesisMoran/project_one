@@ -8,7 +8,7 @@ let upOrDown = 0;
             if (leftOrRight < 440){
                 leftOrRight += 20;
             }
-            // berry "dissappears" if loli's left/top equal to berry's left/top
+            // berry "disappears" if loli's left/top equal to berry's left/top
             $('#loli').css('left', leftOrRight)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
@@ -36,7 +36,7 @@ let upOrDown = 0;
             if (leftOrRight > 0){
                 leftOrRight -= 20;
             }
-            // berry "dissappears" if loli's left/top equal to berry's left/top
+            // berry "disappears" if loli's left/top equal to berry's left/top
             $('#loli').css('left', leftOrRight)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
@@ -62,7 +62,7 @@ let upOrDown = 0;
             if (upOrDown < 440){
                 upOrDown += 20;
             }
-            // berry "dissappears" if loli's left/top equal to berry's left/top
+            // berry "disappears" if loli's left/top equal to berry's left/top
             $('#loli').css('top', upOrDown)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
@@ -88,7 +88,7 @@ let upOrDown = 0;
             if (upOrDown > 0){
                 upOrDown -= 20;
             }
-            // berry "dissappears" if loli's left/top equal to berry's left/top
+            // berry "disappears" if loli's left/top equal to berry's left/top
             $('#loli').css('top', upOrDown)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
@@ -110,4 +110,7 @@ let upOrDown = 0;
             }
         }
     });
+    setInterval(() => {
+            alert("Are you finished? Yes = Winner; No = [Refresh] Try Again.")
+        }, 10000);
 });
