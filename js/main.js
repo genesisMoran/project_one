@@ -28,8 +28,6 @@ let upOrDown = 0;
             if ($('#strawberry').css('left') === $('#loli').css('left') && $('#strawberry').css('top') === $('#loli').css('top')){
                 $('#strawberry').hide()
             }
-            console.log($('#blackberry').css('left'))
-            console.log($('#blackberry').css('left'))
         }
      
         if(event.key === 'ArrowLeft'){
@@ -112,5 +110,5 @@ let upOrDown = 0;
     });
     setInterval(() => {
             alert("Are you finished? Yes = Winner; No = [Refresh] Try Again.")
-        }, 10000);
+        }, 20000);
 });

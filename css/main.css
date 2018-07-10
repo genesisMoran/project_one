@@ -1,23 +1,25 @@
 body{
     background-color: rgb(202, 166, 215);
 }
+
 audio{
 	display: none;
 }
+
 h1{
     color: aliceblue;
     font-family: 'Sunflower', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 p{
     color: rgba(161, 105, 182, .6);
     font-family: 'Sunflower', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .loli-grid{
-    margin-top: 5%;
+    margin-top: 3%;
     height: 500px;
     width: 500px;
 /* background-image courtesy of Giphy */
