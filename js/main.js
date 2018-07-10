@@ -1,40 +1,49 @@
 // Loli moves around grid and stops at limits
+$(document).ready(function(){
 let leftOrRight = 0;
 let upOrDown = 0;
-document.addEventListener('keydown', (event) => {
+$('body').keydown(event => {
     // console.log(event.key)
 
         if(event.key === 'ArrowRight'){
             if (leftOrRight < 440){
-                leftOrRight += 10;
+                leftOrRight += 20;
             }
             $('#loli').css('left', leftOrRight)
-            // console.log($('#loli').css('left'))
-            // console.log('right',$('#loli'))
+            if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
+                $('#blackberry').hide()
+            }
+            console.log($('#blackberry').css('left'))
         }
      
         if(event.key === 'ArrowLeft'){
             if (leftOrRight > 0){
-                leftOrRight -= 10;
+                leftOrRight -= 20;
             }
             $('#loli').css('left', leftOrRight)
-            // console.log($('#loli').css('left'))
+            if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
+                $('#blackberry').hide()
+            }
         }
 
         if(event.key === 'ArrowDown'){
             if (upOrDown < 440){
-                upOrDown += 10;
+                upOrDown += 20;
             }
             $('#loli').css('top', upOrDown)
-            // console.log('top',$('#loli').css('top'))
-            // console.log('down',$('#loli'))
+            if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
+                $('#blackberry').hide()
+            }
         }
 
         if(event.key === 'ArrowUp'){
             if (upOrDown > 0){
-                upOrDown -= 10;
+                upOrDown -= 20;
             }
             $('#loli').css('top', upOrDown)
-            // console.log('top',$('#loli').css('top'))
+            if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
+                $('#blackberry').hide()
+            }
         }
+});
 });
