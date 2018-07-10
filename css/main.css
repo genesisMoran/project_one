@@ -1,11 +1,19 @@
 body{
     background-color: rgb(202, 166, 215);
 }
-
+audio{
+	display: none;
+}
 h1{
     color: aliceblue;
     font-family: 'Sunflower', sans-serif;
     font-size: 50px;
+}
+
+p{
+    color: rgba(161, 105, 182, .6);
+    font-family: 'Sunflower', sans-serif;
+    font-size: 30px;
 }
 
 .loli-grid{
@@ -29,55 +37,55 @@ main character would not be able to move */
     background: radial-gradient(circle, white 10%, transparent 30%), pink;
     /* eyes */
     background-size: 50% 100%;
-    height: 25px;
-    width: 25px;
-    border-radius: 60%;
+    height: 40px;
+    width: 40px;
+    border-radius: 65%;
     border-bottom: 7px solid lightcoral;
 }
 
 #blackberry{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-color: black;
     border-radius: 50%;
     position: absolute;
 }
 
 #blueberry{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-color: navy;
     border-radius: 50%;
     position: absolute;
 }
 
 #cloudberry{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-color: orange;
     border-radius: 50%;
     position: absolute;
 }
 
 #cranberry{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-color: darkred;
     border-radius: 50%;
     position: absolute;
 }
 
 #raspberry{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-color: red;
     border-radius: 50%;
     position: absolute;
 }
 
 #strawberry{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-color: palevioletred;
     border-radius: 50%;
     position: absolute;

@@ -2,17 +2,33 @@
 $(document).ready(function(){
 let leftOrRight = 0;
 let upOrDown = 0;
-$('body').keydown(event => {
-    // console.log(event.key)
+    $('body').keydown(event => {
 
         if(event.key === 'ArrowRight'){
             if (leftOrRight < 440){
                 leftOrRight += 20;
             }
+            // berry "dissappears" if loli's left/top equal to berry's left/top
             $('#loli').css('left', leftOrRight)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
             }
+            if ($('#blueberry').css('left') === $('#loli').css('left') && $('#blueberry').css('top') === $('#loli').css('top')){
+                $('#blueberry').hide()
+            }
+            if ($('#cloudberry').css('left') === $('#loli').css('left') && $('#cloudberry').css('top') === $('#loli').css('top')){
+                $('#cloudberry').hide()
+            }
+            if ($('#cranberry').css('left') === $('#loli').css('left') && $('#cranberry').css('top') === $('#loli').css('top')){
+                $('#cranberry').hide()
+            }
+            if ($('#raspberry').css('left') === $('#loli').css('left') && $('#raspberry').css('top') === $('#loli').css('top')){
+                $('#raspberry').hide()
+            }
+            if ($('#strawberry').css('left') === $('#loli').css('left') && $('#strawberry').css('top') === $('#loli').css('top')){
+                $('#strawberry').hide()
+            }
+            console.log($('#blackberry').css('left'))
             console.log($('#blackberry').css('left'))
         }
      
@@ -20,9 +36,25 @@ $('body').keydown(event => {
             if (leftOrRight > 0){
                 leftOrRight -= 20;
             }
+            // berry "dissappears" if loli's left/top equal to berry's left/top
             $('#loli').css('left', leftOrRight)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
+            }
+            if ($('#blueberry').css('left') === $('#loli').css('left') && $('#blueberry').css('top') === $('#loli').css('top')){
+                $('#blueberry').hide()
+            }
+            if ($('#cloudberry').css('left') === $('#loli').css('left') && $('#cloudberry').css('top') === $('#loli').css('top')){
+                $('#cloudberry').hide()
+            }
+            if ($('#cranberry').css('left') === $('#loli').css('left') && $('#cranberry').css('top') === $('#loli').css('top')){
+                $('#cranberry').hide()
+            }
+            if ($('#raspberry').css('left') === $('#loli').css('left') && $('#raspberry').css('top') === $('#loli').css('top')){
+                $('#raspberry').hide()
+            }
+            if ($('#strawberry').css('left') === $('#loli').css('left') && $('#strawberry').css('top') === $('#loli').css('top')){
+                $('#strawberry').hide()
             }
         }
 
@@ -30,9 +62,25 @@ $('body').keydown(event => {
             if (upOrDown < 440){
                 upOrDown += 20;
             }
+            // berry "dissappears" if loli's left/top equal to berry's left/top
             $('#loli').css('top', upOrDown)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
+            }
+            if ($('#blueberry').css('left') === $('#loli').css('left') && $('#blueberry').css('top') === $('#loli').css('top')){
+                $('#blueberry').hide()
+            }
+            if ($('#cloudberry').css('left') === $('#loli').css('left') && $('#cloudberry').css('top') === $('#loli').css('top')){
+                $('#cloudberry').hide()
+            }
+            if ($('#cranberry').css('left') === $('#loli').css('left') && $('#cranberry').css('top') === $('#loli').css('top')){
+                $('#cranberry').hide()
+            }
+            if ($('#raspberry').css('left') === $('#loli').css('left') && $('#raspberry').css('top') === $('#loli').css('top')){
+                $('#raspberry').hide()
+            }
+            if ($('#strawberry').css('left') === $('#loli').css('left') && $('#strawberry').css('top') === $('#loli').css('top')){
+                $('#strawberry').hide()
             }
         }
 
@@ -40,10 +88,26 @@ $('body').keydown(event => {
             if (upOrDown > 0){
                 upOrDown -= 20;
             }
+            // berry "dissappears" if loli's left/top equal to berry's left/top
             $('#loli').css('top', upOrDown)
             if ($('#blackberry').css('left') === $('#loli').css('left') && $('#blackberry').css('top') === $('#loli').css('top')){
                 $('#blackberry').hide()
             }
+            if ($('#blueberry').css('left') === $('#loli').css('left') && $('#blueberry').css('top') === $('#loli').css('top')){
+                $('#blueberry').hide()
+            }
+            if ($('#cloudberry').css('left') === $('#loli').css('left') && $('#cloudberry').css('top') === $('#loli').css('top')){
+                $('#cloudberry').hide()
+            }
+            if ($('#cranberry').css('left') === $('#loli').css('left') && $('#cranberry').css('top') === $('#loli').css('top')){
+                $('#cranberry').hide()
+            }
+            if ($('#raspberry').css('left') === $('#loli').css('left') && $('#raspberry').css('top') === $('#loli').css('top')){
+                $('#raspberry').hide()
+            }
+            if ($('#strawberry').css('left') === $('#loli').css('left') && $('#strawberry').css('top') === $('#loli').css('top')){
+                $('#strawberry').hide()
+            }
         }
-});
+    });
 });
