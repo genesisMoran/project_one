@@ -1,5 +1,7 @@
 // Berries appear randomly on grid
 $(document).ready(function(){
+    // max = 380px
+    // min = 60px
     // BLACKBERRY
     let randomLeft1 = Math.floor((Math.random() * 380) + 60);
     let randomTop1 = Math.floor((Math.random() * 380) + 60);
