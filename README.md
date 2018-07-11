@@ -2,8 +2,7 @@
 
 ## PROJECT ONE
 
-### PROJECT TITLE: 
-### Loliberrie
+### PROJECT TITLE: Loliberrie
 <p>The objective of the game is to help Loli collect the berries. Loli is given a total of 20 seconds at the start, if this goal is met she wins; if by the 20 seconds there are still berries left she must start over (aka game over).</p>
 
 ### MOTIVATION
