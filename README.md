@@ -1,5 +1,4 @@
-**GA: WDI-NYC-LAMBDA | Genesis Moran**
-**Science Fair Date: 07.10.2018**
+**GA: WDI-NYC-LAMBDA | Genesis Moran | 07.10.2018**
 
 ### Project one
 
